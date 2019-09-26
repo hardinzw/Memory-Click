@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function TunesCard(props) {
+function Character(props) {
     return (
-        <div className="img-container">
+        <div className="img" onClick={event => props.clickEvent(event.target.src)}>
             <img alt={props.name} src={props.image} />
         </div>
     );
-}
+};
 
-export default TunesCard;
+export default Character;
