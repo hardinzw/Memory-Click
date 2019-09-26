@@ -1,4 +1,4 @@
-.img-container {
+.img {
     background: red;
     height: 210px;
     width: 210px;
@@ -6,7 +6,7 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   }
   
-.img-container > img {
+.img > img {
     height: 100%;
     overflow: hidden;
     text-align: center;
