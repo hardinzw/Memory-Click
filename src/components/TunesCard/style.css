@@ -1,0 +1,31 @@
+.img-container {
+    background: red;
+    height: 210px;
+    width: 210px;
+    margin: 1rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  }
+  
+.img-container > img {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    float: initial;
+    opacity: 20
+  }
+  .card-img > .img-container > img {
+    width: 50%
+  }
+  
+  .card-img > .remove {
+    color: #ff1744;
+    font-size: 48px;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
+  .card-img > .remove:hover {
+    color: #d50000;
+  }
