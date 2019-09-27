@@ -1,10 +1,11 @@
 .navbar {
     width: 100%;
-    background: rgb(231, 226, 226);
+    background: rgb(40, 32, 75);
     position: fixed;
     top: 0;
-    box-shadow: 0 4px 8px rgb(52, 52, 240), 0 3px 6px rgb(221, 221, 236);
-    color: red;
+    box-shadow: 0 7px 10px white;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .navbar > li {

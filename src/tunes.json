@@ -2,73 +2,73 @@
     {
         "id": 1,
         "name": "He-Man",
-        "image": "./img/he-man.png",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/20/13/he-man.jpg?w968h681",
         "clicked": ""
     },
     {
         "id": 2,
-        "name": "Daffy Duck",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Skeletor",
+        "image": "https://halloweenlove.com/images/posts/masters-universe-skeletor.jpg",
         "clicked": "false"
     },
     {
         "id": 3,
-        "name": "Elmer Fudd",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Battle-Cat",
+        "image": "https://vignette.wikia.nocookie.net/heman/images/4/41/Battlecat_filmation.jpg/revision/latest?cb=20090819010354",
         "clicked": "false"
     },
     {
         "id": 4,
-        "name": "Porky Pig",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Orko",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQW80jso_0H1QVQ06i2n7BU0OK7sAYHU4-A9DI-qoayJXPq2B_Fw",
         "clicked": "false"
     },
     {
         "id": 5,
-        "name": "Tasmanian Devil",
-        "image": "https://www.pinclipart.com/picdir/middle/22-223463_download-graphic-transparent-clip-art-free-panda-images.png",
+        "name": "Man-At-Arms",
+        "image": "https://makeeterniagreatagain.podbean.com/mf/web/e2cxi8/intro.jpg",
         "clicked": "false"
     },
     {
         "id": 6,
-        "name": "Wile E. Coyote",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "She-Ra",
+        "image": "https://cdn.vox-cdn.com/thumbor/fLK6PdiuheGqGWSa0y2F9tqzYB0=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/11703265/Screen_Shot_2018_07_17_at_1.06.15_PM.png",
         "clicked": "false"
     },
     {
         "id": 7,
-        "name": "Yosemite Sam",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Beast-Man",
+        "image": "https://i.ytimg.com/vi/-WX2-y6LKEY/hqdefault.jpg",
         "clicked": "false"
     },
     {
         "id": 8,
-        "name": "Speedy Gonzales",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "TrapJaw",
+        "image": "http://www.he-manreviewed.com/wp-content/uploads/2012/04/4-8-Trap-Jaw-Dildo-Arm.png",
         "clicked": "false"
     },
     {
         "id": 9,
-        "name": "Road Runner",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Mer-Man",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4UT17MkPMb-uiOVtpJd1PH_8Wcl36tgb22u70KmvWXKgnMd_IEg",
         "clicked": "false"
     },
     {
         "id": 10,
-        "name": "Pepe Le Pew",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "Evil-Lyn",
+        "image": "https://vignette.wikia.nocookie.net/heman/images/c/c0/Evil-lyn.jpg/revision/latest?cb=20110501085507",
         "clicked": "false"
     },
     {
         "id": 11,
-        "name": "Marvin The Martian",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "The-Sorceress",
+        "image": "https://www.throwbacks.com/content/images/2017/10/e61f468ed88edcb174c5927237752f04---s-cartoons.jpg",
         "clicked": "false"
     },
     {
         "id": 12,
-        "name": "Sylvester",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "name": "King-Randor",
+        "image": "https://dlisted.com/wp-content/uploads/2015/06/hsotdkingradnor1-500x422.jpg",
         "clicked": "false"
     }
 ]
