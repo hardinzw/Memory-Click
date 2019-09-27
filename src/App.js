@@ -8,12 +8,11 @@ import tunes from "./tunes.json";
 class App extends Component {
   // Setting this.state.tunes to the tunes json array
   state = {
-    tunes,
+    tunes: this.shuffleCharacters(),
     score: 0,
     highScore: 0,
     navMsgColor: '',
     navMsg: 'Click an image to begin!',
-    allCharacters: this.shuffleCharacters(),
     wasClicked: [],
   };
 
@@ -71,7 +70,7 @@ class App extends Component {
         highScore: highScore,
         navMsgColor: 'incorrect',
         navMsg: 'Incorrect Guess!',
-        allCharacters: shuffled,
+        tunes: shuffled,
         wasClicked: [],
       });
     };
@@ -82,7 +81,7 @@ class App extends Component {
       highScore: highScore,
       navMsgColor: 'correct',
       navMsg: 'Keep Going!',
-      allCharacters: shuffled,
+      tunes: shuffled,
       wasClicked: previousState,
     });
 
@@ -106,8 +105,8 @@ class App extends Component {
         {this.state.tunes.map(tunes => (
           <CharacterCard
             id={tunes.id}
+            name={tunes.name}
             image={tunes.image}
-            characters={state.allCharacters}
             clickEvent={this.clickEvent}
           />
           ))}
