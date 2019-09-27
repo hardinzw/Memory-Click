@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Bugs Bunny",
-        "image": "https://p7.hiclipart.com/preview/454/581/132/bugs-bunny-daffy-duck-looney-tunes-warner-bros-cartoons-others.png",
-        "clicked": "false"
+        "name": "He-Man",
+        "image": "./img/he-man.png",
+        "clicked": ""
     },
     {
         "id": 2,
@@ -67,25 +67,7 @@
     },
     {
         "id": 12,
-        "name": "Tweety",
-        "image": "https://www.pinclipart.com/picdir/middle/177-1771884_hammer-clipart-debate-looney-tunes-transparent-background-png.png",
-        "clicked": "false"
-    },
-    {
-        "id": 13,
         "name": "Sylvester",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "clicked": "false"
-    },
-    {
-        "id": 14,
-        "name": "Michigan J. Frog",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "clicked": "false"
-    },
-    {
-        "id": 15,
-        "name": "Lola Bunny",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "clicked": "false"
     }

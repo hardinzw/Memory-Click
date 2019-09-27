@@ -69,7 +69,7 @@ class App extends Component {
         score: score,
         highScore: highScore,
         navMsgColor: 'incorrect',
-        navMsg: 'Incorrect Guess!',
+        navMsg: 'You Do Not Have the Power!',
         tunes: shuffled,
         wasClicked: [],
       });
@@ -80,7 +80,7 @@ class App extends Component {
       score: score,
       highScore: highScore,
       navMsgColor: 'correct',
-      navMsg: 'Keep Going!',
+      navMsg: 'By the Power of Gray Skull!',
       tunes: shuffled,
       wasClicked: previousState,
     });
@@ -101,7 +101,7 @@ class App extends Component {
           navMsg={state.navMsg}
           navMsgColor={state.navMsgColor}
           />
-        <Jumbotron/>
+        <Jumbotron />
         {this.state.tunes.map(tunes => (
           <CharacterCard
             id={tunes.id}

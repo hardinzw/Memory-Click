@@ -1,11 +1,10 @@
 .navbar {
     width: 100%;
-    background: white;
+    background: rgb(231, 226, 226);
     position: fixed;
     top: 0;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 4px 8px rgb(52, 52, 240), 0 3px 6px rgb(221, 221, 236);
     color: red;
-    font-size: 40px
 }
 
 .navbar > li {
@@ -47,5 +46,35 @@
     }
     100% {
       color: white;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .navbar {
+      display: flex;
+      position: fixed;
+      justify-content: space-around;
+      font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    }
+  
+    .navbar div {
+      margin-bottom: 0;
+      text-align: center;
+      width: 33.333%;
+    }
+  }
+
+  @media (min-width: 300px) {
+    .navbar {
+      display: flex;
+      position: fixed;
+      justify-content: space-around;
+      font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    }
+  
+    .navbar div {
+      margin-bottom: 0;
+      text-align: center;
+      width: 33.333%;
     }
   }

@@ -1,6 +1,17 @@
 .jumbotron {
     width: 100%;
-    margin-top: 4rem;
-    padding: 75px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    margin-top: 4%;
+    padding: 70px;
+    box-shadow: 0 4px 8px rgb(43, 43, 194), 0 3px 6px rgb(207, 207, 245);
+    position: static;
+    background-image: url("https://i.imgur.com/Jw3U9v9.jpg");
+    background-size: 100% 100%
+}
+
+h1 {
+    color: white
+}
+
+p {
+    color: white
 }

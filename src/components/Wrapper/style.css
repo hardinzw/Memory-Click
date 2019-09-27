@@ -1,9 +1,12 @@
 .wrapper {
-    background: black;
+    background: rgb(207, 204, 204);
+    background-size: cover;
     height: 100%;
     display: flex;
+    text-align: center;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    padding-bottom: 35px;
 }
