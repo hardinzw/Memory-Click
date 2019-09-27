@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ImgContainer from "./components/ImgContainer";
+import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
@@ -8,13 +8,13 @@ import tunes from "./tunes.json";
 class App extends Component {
   // Setting this.state.tunes to the tunes json array
   state = {
+    tunes,
     score: 0,
     highScore: 0,
     navMsgColor: '',
     navMsg: 'Click an image to begin!',
     allCharacters: this.shuffleCharacters(),
     wasClicked: [],
-    shake: false
   };
 
   // Binds the current this context to checkClicked to have access to the current state
@@ -41,7 +41,7 @@ class App extends Component {
     const previousState = this.state.wasClicked.slice();
 
     // Shuffles the images
-    const shuffled = this.shuffleTunes();
+    const shuffled = this.shuffleCharacters();
 
     // Track Score
     let score = this.state.score;
@@ -73,7 +73,6 @@ class App extends Component {
         navMsg: 'Incorrect Guess!',
         allCharacters: shuffled,
         wasClicked: [],
-        shake: true
       });
     };
 
@@ -85,7 +84,6 @@ class App extends Component {
       navMsg: 'Keep Going!',
       allCharacters: shuffled,
       wasClicked: previousState,
-      shake: false
     });
 
     // Removes green 'correct' indicator after 1s on a successful click to re-render class
@@ -105,11 +103,14 @@ class App extends Component {
           navMsgColor={state.navMsgColor}
           />
         <Jumbotron/>
-          <ImgContainer
-            shake={state.shake}
+        {this.state.tunes.map(tunes => (
+          <CharacterCard
+            id={tunes.id}
+            image={tunes.image}
             characters={state.allCharacters}
             clickEvent={this.clickEvent}
           />
+          ))}
       </Wrapper>
     );
   };

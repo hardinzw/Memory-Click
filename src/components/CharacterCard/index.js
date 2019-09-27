@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Character(props) {
+function CharacterCard(props) {
     return (
         <div className="img" onClick={event => props.clickEvent(event.target.src)}>
             <img alt={props.name} src={props.image} />
@@ -9,4 +9,4 @@ function Character(props) {
     );
 };
 
-export default Character;
+export default CharacterCard;
