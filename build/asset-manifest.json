@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Memory-Click/static/css/main.5e4e9510.chunk.css",
-    "main.js": "/Memory-Click/static/js/main.0b81adef.chunk.js",
-    "main.js.map": "/Memory-Click/static/js/main.0b81adef.chunk.js.map",
+    "main.css": "/Memory-Click/static/css/main.f508386b.chunk.css",
+    "main.js": "/Memory-Click/static/js/main.55710077.chunk.js",
+    "main.js.map": "/Memory-Click/static/js/main.55710077.chunk.js.map",
     "runtime-main.js": "/Memory-Click/static/js/runtime-main.47757ef9.js",
     "runtime-main.js.map": "/Memory-Click/static/js/runtime-main.47757ef9.js.map",
-    "static/js/2.cc18766b.chunk.js": "/Memory-Click/static/js/2.cc18766b.chunk.js",
-    "static/js/2.cc18766b.chunk.js.map": "/Memory-Click/static/js/2.cc18766b.chunk.js.map",
+    "static/js/2.b03c78ff.chunk.js": "/Memory-Click/static/js/2.b03c78ff.chunk.js",
+    "static/js/2.b03c78ff.chunk.js.map": "/Memory-Click/static/js/2.b03c78ff.chunk.js.map",
     "index.html": "/Memory-Click/index.html",
-    "precache-manifest.c6cca8b5e2d43ead14d821bbde4fcd1e.js": "/Memory-Click/precache-manifest.c6cca8b5e2d43ead14d821bbde4fcd1e.js",
+    "precache-manifest.3cf3aee3a87f107a598135e95b04b944.js": "/Memory-Click/precache-manifest.3cf3aee3a87f107a598135e95b04b944.js",
     "service-worker.js": "/Memory-Click/service-worker.js",
-    "static/css/main.5e4e9510.chunk.css.map": "/Memory-Click/static/css/main.5e4e9510.chunk.css.map",
-    "static/media/logo.svg": "/Memory-Click/static/media/logo.25bf045c.svg"
+    "static/css/main.f508386b.chunk.css.map": "/Memory-Click/static/css/main.f508386b.chunk.css.map"
   }
 }
